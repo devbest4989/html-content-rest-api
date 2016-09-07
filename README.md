@@ -9,7 +9,7 @@ rails app for web scraping purposes. It scrapes a given page (by the URL), and r
  rails s 
 
 # try it
-to scraping html page
+to scraping html page <br>
 curl -X POST http://127.0.0.1:3000/api/scrape?url=http://www.github.com<br>
 
 curl -X GET http://127.0.0.1:3000/api/page_urls<br>
